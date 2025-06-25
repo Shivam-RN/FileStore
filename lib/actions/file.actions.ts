@@ -141,11 +141,7 @@ export const renameFile = async ({fileId,name,extension,path,}: RenameFileProps)
   }
 };
 
-export const updateFileUsers = async ({
-  fileId,
-  emails,
-  path,
-}: UpdateFileUsersProps) => {
+export const updateFileUsers = async ({fileId,emails,path,}: UpdateFileUsersProps) => {
   const { databases } = await createAdminClient();
 
   try {
