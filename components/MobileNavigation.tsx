@@ -38,13 +38,13 @@ const MobileNavigation = ({
   return (
     <header className="mobile-header">
       <Image
-        src="/assets/icons/logo-full-brand.svg"
+        src="/assets/icons/logo-brand.svg"
         alt="logo"
         width={120}
         height={52}
         className="h-auto"
       />
-
+<h1 className="mr-36 mt-5 text-rose-400 font-bold text-lg">FileStore</h1>
       <Sheet open={open} onOpenChange={setOpen}>
         <SheetTrigger>
           <Image
